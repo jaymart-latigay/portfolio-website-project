@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-website-project",
+  "version": "1.0.0",
+  "description": "practicing bootstrap w/ sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-v5",
+    "practicing-bootstrap",
+    "practicing-sass"
+  ],
+  "author": "Jaymart Latigay",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "autoprefixer": "^10.4.17",
+    "bootstrap": "^5.3.2",
+    "postcss-cli": "^11.0.0"
+  }
+}
