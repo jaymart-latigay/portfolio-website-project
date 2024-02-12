@@ -1,6 +1,10 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 .btn-rounded {
+  @include media-breakpoint-down(sm) {
+    //wont show to sm devices
+    display: none;
+  }
   position: relative; // relative position means that the button will be positioned relative to its normal position
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
   font-weight: 700;
