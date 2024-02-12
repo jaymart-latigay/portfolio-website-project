@@ -3,13 +3,10 @@
 //by default, the namespace is the filename without the extension
 
 @use "../custom" as *;
+@use "../components/mixins" as *;
 
 .menu {
-  background: linear-gradient(
-    to right,
-    rgba($primary, 0.95),
-    rgba($secondary, 0.95)
-  );
+  @include gradient;
 
   li {
     padding: 0 0.7rem;
