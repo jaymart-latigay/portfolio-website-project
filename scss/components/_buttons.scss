@@ -1,6 +1,26 @@
+@use "../custom" as *;
+
 .btn-rounded {
   position: relative; // relative position means that the button will be positioned relative to its normal position
-  padding: 0.9375rem 1.25rem;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
   font-weight: 500;
   margin: 0;
+  border: 0rem solid rgba($white, 0.6);
+}
+
+span {
+  position: absolute;
+  background-color: $primary;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%); // translateY moves the element up or down
+  border-radius: 50%;
+  line-height: 2.5rem; // line-height is used to center the icon vertically
+
+  i {
+    color: $white;
+    font-size: 1rem;
+  }
 }
