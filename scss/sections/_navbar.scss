@@ -1,1 +1,23 @@
+// files imported w/ @use are called modules
+// to use mixins/variables of these modules, call them using namespaces
+//by default, the namespace is the filename without the extension
 
+@use "../custom" as *;
+
+.menu {
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.95),
+    rgba($secondary, 0.95)
+  );
+
+  li {
+    padding: 0 0.7rem;
+  }
+
+  a {
+    color: whitesmoke !important; // !important is used to override the default color
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+}
