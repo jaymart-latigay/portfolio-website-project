@@ -11988,4 +11988,15 @@ textarea.form-control-lg {
   animation-delay: 1.5s;
 }
 
+.companies {
+  padding: 0 0 5rem 0;
+}
+.companies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+}
+.companies__logo-box img {
+  height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
