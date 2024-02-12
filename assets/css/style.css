@@ -12002,5 +12002,8 @@ textarea.form-control-lg {
 .companies__logo-box img {
   height: 100%;
 }
+.companies__logo-box img:hover {
+  filter: grayscale(100%);
+}
 
 /*# sourceMappingURL=style.css.map */
