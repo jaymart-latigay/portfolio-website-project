@@ -10,10 +10,14 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--NAVBAR--------------------------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-dark menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="logo image" />
@@ -65,22 +69,39 @@
     <!--HERO SECTION-------------------------------------------------------------->
     <section id="home" class="intro-section">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center text-white">
+          <!--CONTENT FOR INTRO TEXT-->
           <div class="col-md-6 intros">
             <h1 class="display-2">
               <span class="display-2--intro"> Hey! I'm Jaymart </span>
-              <span class="display-2--description">
+              <span class="display-2--description lh-base">
                 This is a multipurpose layout created with bootstrap v5. (Here
                 you can place descrption text for intro)
               </span>
             </h1>
-          </div>
-
-          <div class="col-md-6 intros">
             <button type="button" class="rounded-pill btn-rounded">
               Get in Touch
               <span><i class="fas fa-arrow-right"></i></span>
             </button>
+          </div>
+
+          <!--CONTENT FOR INTRO VIDEO-->
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img
+                src="images/arts/intro-section-illustration.png"
+                alt="video illustration"
+                class="img-fluid"
+              />
+              <a
+                href="#"
+                class="position-absolute top-50 start-50 translate-middle"
+              >
+                <span>
+                  <i class="fas fa-play-circle"></i>
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
