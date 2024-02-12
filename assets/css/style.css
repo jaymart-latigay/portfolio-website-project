@@ -11994,6 +11994,10 @@ textarea.form-control-lg {
 .companies__logo-box {
   max-width: 100%;
   height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
 }
 .companies__logo-box img {
   height: 100%;
