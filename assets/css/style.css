@@ -11948,7 +11948,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-3--title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -11956,6 +11956,11 @@ textarea.form-control-lg {
   background-image: linear-gradient(to right, #9926f0, #d122e3);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    margin-top: 1.8rem;
+  }
 }
 
 .border-right {
@@ -12036,6 +12041,11 @@ textarea.form-control-lg {
 .services__content p {
   font-size: 1rem;
 }
+@media (min-width: 576px) {
+  .services__content p {
+    margin-top: 1rem;
+  }
+}
 @media (min-width: 992px) {
   .services__content {
     margin-top: 5rem;
@@ -12045,8 +12055,59 @@ textarea.form-control-lg {
   font-size: 2.5rem;
   color: #9926f0;
 }
+@media (min-width: 992px) {
+  .services__content .icon {
+    margin-top: 2.5rem;
+  }
+}
 .services__pic {
   max-width: 100%;
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: rgba(153, 38, 240, 0.7);
+}
+.testimonials__card .ratings i {
+  color: rgba(153, 38, 240, 0.7);
+  font-size: 1rem;
+}
+.testimonials__picture {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__picture img {
+  border: 0.325rem solid rgba(153, 38, 240, 0.7);
+}
+.testimonials__name {
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.testimonials__name h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.testimonials__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
